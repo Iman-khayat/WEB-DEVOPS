@@ -1,0 +1,47 @@
+@import url("https://fonts.cdnfonts.com/css/blanka");
+footer {
+  background-color: #f5cac3;
+}
+.head {
+  font-weight: bold;
+  color: #ec8684;
+  margin-bottom: 20px;
+  font-family: "Blanka", sans-serif;
+  text-align: center;
+}
+.location span {
+  display: block;
+  font-size: 20px;
+  color: #463a3a;
+}
+.links {
+  width: 50%;
+  margin: auto;
+}
+.navbar-nav a.active {
+  background-color: #84a49f !important;
+  color: white;
+}
+.social-icon .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-icon .icons .link {
+  font-size: 50px;
+  color: #000;
+  transition: 0.5s;
+}
+.social-icon .icons .link:hover {
+  color: #f28482;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

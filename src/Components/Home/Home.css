@@ -1,0 +1,42 @@
+@import url("https://fonts.cdnfonts.com/css/blanka");
+.home {
+  border-radius: 10px;
+}
+section {
+  height: calc(100% - 20px);
+}
+.center {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.image {
+  border-radius: 6px;
+}
+.title {
+  font-weight: bold;
+  color: #ec8684;
+  margin-bottom: 5px;
+  margin: 15px 0;
+  font-family: "Blanka", sans-serif;
+}
+.card {
+  border: none !important;
+}
+.card img {
+  text-align: center;
+  margin: auto;
+}
+.card p {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+/* .ourpartner {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+} */

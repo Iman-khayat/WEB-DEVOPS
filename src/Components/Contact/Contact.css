@@ -1,0 +1,115 @@
+@import url("https://fonts.cdnfonts.com/css/blanka");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.contact {
+  background-color: #f7ede2;
+  text-align: center;
+  border-radius: 10px;
+  margin: 25px auto;
+  padding: 10px 0;
+}
+
+.contact h1 {
+  font-weight: bold;
+  color: #ec8684;
+  margin-bottom: 5px;
+  margin: 10px 0;
+  font-family: "Blanka", sans-serif;
+}
+
+form {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.send {
+  display: block;
+  width: 100%;
+  background-color: #84a59d;
+  border: none;
+  border-radius: 3px;
+  padding: 1ch;
+  font-size: 1rem;
+  color: #fff;
+  font-family: inherit;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.send:hover {
+  background-color: #4d8b7c;
+}
+.text-input {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.text-input label {
+  position: absolute;
+  top: 1ch;
+  left: 1ch;
+  padding: 0 0.5ch;
+  pointer-events: none;
+  transition: 150ms ease;
+  color: #888;
+  z-index: 1;
+}
+.affect {
+  position: absolute !important;
+  top: 0 !important;
+  font-size: 1rem !important;
+  color: #4d8b7c !important;
+  font-weight: bold !important;
+  transform: translateY(-50%) !important;
+  background-color: #f7ede2 !important;
+  font-weight: 600 !important;
+  z-index: 1 !important;
+}
+.text-input input {
+  display: block;
+  width: 100%;
+  border: 2px solid #eee;
+  padding: 1ch;
+  border-radius: 3px;
+  transition: 150ms ease;
+  outline: none;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid #84a59d;
+  background-color: #f7ede2;
+}
+.text-area {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.text-area label {
+  position: absolute;
+  top: 1ch;
+  left: 1ch;
+  padding: 0 0.5ch;
+  pointer-events: none;
+  transition: 150ms ease;
+  color: #888;
+  z-index: 1;
+}
+.text-area textarea {
+  display: block;
+  width: 100%;
+  border: 2px solid #eee;
+  padding: 1ch;
+  border-radius: 3px;
+  transition: 150ms ease;
+  outline: none;
+  font-size: 1rem;
+  font-family: inherit;
+  height: 8em;
+  border: 1px solid #84a59d;
+  background-color: #f7ede2;
+  resize: none;
+}
+.text-area textarea:focus {
+  border-color: #4d8b7c;
+}
+

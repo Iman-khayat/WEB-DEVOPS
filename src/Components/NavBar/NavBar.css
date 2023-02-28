@@ -1,0 +1,17 @@
+nav {
+  background-color: #f7ede3;
+}
+.navbar-nav .nav-link {
+  background-color: #f4857a;
+  color: white !important;
+  font-size: 17px;
+  padding: 5px 10px;
+  transition: 0.4s;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.navbar-nav a.active {
+  background-color: #84a49f !important;
+  color: white;
+}

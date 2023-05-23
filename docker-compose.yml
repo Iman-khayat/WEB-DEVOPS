@@ -1,0 +1,16 @@
+version: '2'
+services:
+  node-app:
+    container_name: devcontainer
+    build: . 
+    volumes:
+      -./src:/app/src:ro
+    ports:
+      -"3000:3000"
+      -"3001:3001"
+      -"3002:3002"
+      -"3003:3003"
+    env_file:
+      - ./.env
+      #docker-compose up -d ----->> to run the file
+      #docker-compose down ---->> to stop the process

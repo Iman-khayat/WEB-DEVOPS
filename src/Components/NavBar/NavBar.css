@@ -1,8 +1,8 @@
 nav {
-  background-color: #f7ede3;
+  background-color: #F5E6DF;
 }
 .navbar-nav .nav-link {
-  background-color: #f4857a;
+  background-color: #ED1E79;
   color: white !important;
   font-size: 17px;
   padding: 5px 10px;
@@ -12,6 +12,6 @@ nav {
   text-align: center;
 }
 .navbar-nav a.active {
-  background-color: #84a49f !important;
+  background-color: #0D1950!important;
   color: white;
 }

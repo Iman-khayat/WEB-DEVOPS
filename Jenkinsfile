@@ -6,7 +6,7 @@ pipeline {
         stage('Clone') {
             steps {
                 git branch'main'
-            url: 'https://github.com/Iman-khayat/WEB-DEVOPS.git'
+                url:'https://github.com/Iman-khayat/WEB-DEVOPS.git'
             }
         }
         stage('Build') {

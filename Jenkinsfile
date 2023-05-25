@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch'main'
+                git branch 'main'
                 url:'https://github.com/Iman-khayat/WEB-DEVOPS.git'
             }
         }
@@ -20,7 +20,7 @@ pipeline {
             steps {
                 sh'''
                 docker run -it nodeimage
-                curl localhost:5000
+                curl localhost:3000
                 '''
                 }
         }

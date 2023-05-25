@@ -11,13 +11,13 @@ pipeline {
                 sh 'pwd -P'
             }
         }
-        stage('Build'){
+     
+    }
+       stage('Build'){
             steps{
                  echo'building completed'
             }
         
         }
-       
-    }
      
 }

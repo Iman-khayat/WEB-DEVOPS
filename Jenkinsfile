@@ -1,24 +1,42 @@
 pipeline {
-    dockerfile {
-       filename 'Dockerfile.build'
-        dir 'build'
-   
+        agent {
+        docker { image 'node:18.16.0-alpine' }
     }
     stages {
+        stage('Clone') {
+            steps {
+                git branch'main'
+            url: 'https://github.com/Iman-khayat/WEB-DEVOPS.git'
+            }
+        }
         stage('Build') {
             steps {
-            echo 'Building....'
+                sh'''
+                docker build -t nodeimage .
+                '''
             }
         }
         stage('Test') {
             steps {
-                sh 'node --version'
-            }
+                sh'''
+                docker run -it nodeimage
+                curl localhost:5000
+                '''
+                }
         }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
+        stage('Package'){
+            steps{
+            sh'''
+            docker push webdevops/nodeimage
+            '''
             }
-        }
     }
+        stage('Deploy'){
+            steps{
+                sh'''
+                echo "task is completed"
+                '''
+            }
+            
+        }
 }

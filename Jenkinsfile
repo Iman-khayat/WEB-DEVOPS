@@ -7,6 +7,17 @@ pipeline {
             steps {
                 sh 'node --version'
             }
+              dir('foo') {
+                sh 'pwd -P'
+            }
         }
+        stage('Build'){
+            steps{
+                 echo'building completed'
+            }
+        
+        }
+       
     }
+     
 }

@@ -1,8 +1,8 @@
 pipeline {
-      agent {
-        docker { image 'node:18.16.0-alpine' }
+    dockerfile {
+        filename 'Dockerfile'
+   
     }
-
     stages {
         stage('Build') {
             steps {

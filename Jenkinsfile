@@ -1,6 +1,7 @@
 pipeline {
     dockerfile {
-        filename 'Dockerfile'
+       filename 'Dockerfile.build'
+        dir 'build'
    
     }
     stages {

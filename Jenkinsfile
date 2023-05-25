@@ -37,6 +37,6 @@ pipeline {
                 echo "task is completed"
                 '''
             }
-            
         }
 }
+        }

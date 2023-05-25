@@ -40,7 +40,7 @@ form {
   font-weight: bold;
 }
 .send:hover {
-  background-color: #4d8b7c;
+  background-color: #0D1950;
 }
 .text-input {
   position: relative;
@@ -60,7 +60,7 @@ form {
   position: absolute !important;
   top: 0 !important;
   font-size: 1rem !important;
-  color: #4d8b7c !important;
+  color: #0D1950 !important;
   font-weight: bold !important;
   transform: translateY(-50%) !important;
   background-color: #f7ede2 !important;
@@ -110,6 +110,6 @@ form {
   resize: none;
 }
 .text-area textarea:focus {
-  border-color: #4d8b7c;
+  border-color: #0D1950;
 }
 

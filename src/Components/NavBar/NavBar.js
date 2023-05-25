@@ -11,7 +11,7 @@ function NavBar() {
           <img
             src="../logo.png"
             alt="logo"
-            style={{ height: "40px", borderRadius: "50%" }}
+            style={{ height: "60px", borderRadius: "60%" }}
           ></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -32,7 +32,7 @@ function Home() {
                     style={{ width: "5rem" }}
                   />
                   <Card.Body>
-                    <Card.Text>MassaSoft company visit company</Card.Text>
+                    <Card.Text>Web devops company visit company</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
@@ -44,7 +44,7 @@ function Home() {
                     style={{ width: "5rem" }}
                   />
                   <Card.Body>
-                    <Card.Text>MassaSoft company visit company</Card.Text>
+                    <Card.Text>Web devops company visit company</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
@@ -56,7 +56,7 @@ function Home() {
                     style={{ width: "5rem" }}
                   />
                   <Card.Body>
-                    <Card.Text>MassaSoft company visit company</Card.Text>
+                    <Card.Text>Web devops company visit company</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
@@ -68,7 +68,7 @@ function Home() {
                     style={{ width: "5rem" }}
                   />
                   <Card.Body>
-                    <Card.Text>MassaSoft company visit company</Card.Text>
+                    <Card.Text>Web devops company visit company</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
@@ -87,7 +87,7 @@ function Home() {
                     style={{ width: "5rem" }}
                   />
                   <Card.Body>
-                    <Card.Text>MassaSoft company visit company</Card.Text>
+                    <Card.Text>Web devops company visit company</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
@@ -99,7 +99,7 @@ function Home() {
                     style={{ width: "5rem" }}
                   />
                   <Card.Body>
-                    <Card.Text>MassaSoft company visit company</Card.Text>
+                    <Card.Text>Web devops company visit company</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
@@ -111,7 +111,7 @@ function Home() {
                     style={{ width: "5rem" }}
                   />
                   <Card.Body>
-                    <Card.Text>MassaSoft company visit company</Card.Text>
+                    <Card.Text>Web devops company visit company</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
@@ -123,7 +123,7 @@ function Home() {
                     style={{ width: "5rem" }}
                   />
                   <Card.Body>
-                    <Card.Text>MassaSoft company visit company</Card.Text>
+                    <Card.Text>Web devops company visit company</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>

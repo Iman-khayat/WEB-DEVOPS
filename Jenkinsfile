@@ -11,14 +11,14 @@ pipeline {
         stage('Build') {
             steps {
                 sh'''
-                docker build -t nodeimage .
+                docker build -t nodeimage :${BUILD_NUMBER}
                 '''
             }
         }
         stage('Test') {
             steps {
                 sh'''
-                docker run -it nodeimage
+                docker run -it nodeimage :${BUILD_NUMBER}
                 curl localhost:3000
                 '''
                 }

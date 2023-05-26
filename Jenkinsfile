@@ -8,7 +8,10 @@ pipeline {
                git branch: 'main', url: 'https://github.com/Iman-khayat/WEB-DEVOPS.git'
             }
         }
-       
+        stage('Initialize'){
+        def dockerHome = tool 'docker'
+        env.PATH = "${dockerHome}/bin:${env.PATH}"
+    }
         stage('Excute') {
             steps {
                 sh'''

@@ -8,13 +8,7 @@ pipeline {
                git branch: 'main', url: 'https://github.com/Iman-khayat/WEB-DEVOPS.git'
             }
         }
-        stage('Build') {
-            steps {
-                sh'''
-                docker build -t nodeimage :${BUILD_NUMBER}
-                '''
-            }
-        }
+      
         stage('Test') {
             steps {
                 sh'''

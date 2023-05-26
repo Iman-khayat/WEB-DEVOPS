@@ -9,10 +9,10 @@ pipeline {
             }
         }
       
-        stage('Test') {
+        stage('Excute') {
             steps {
                 sh'''
-                docker run -it nodeimage :${BUILD_NUMBER}
+                docker run --name mycontainer -d -i -t alpine /bin/sh :${BUILD_NUMBER}
                 curl localhost:3000
                 '''
                 }

@@ -8,11 +8,7 @@ pipeline {
                git branch: 'main', url: 'https://github.com/Iman-khayat/WEB-DEVOPS.git'
             }
         }
-        stage('Test') {
-            steps {
-                sh 'node --version'
-            }
-      
+       
         stage('Excute') {
             steps {
                 sh'''

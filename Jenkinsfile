@@ -20,7 +20,7 @@ pipeline {
         stage('Package'){
             steps{
             sh'''
-            docker push webdevops/nodeimage
+            docker push webdevops/nodeimage :${BUILD_NUMBER}
             '''
             }
     }

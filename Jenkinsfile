@@ -8,18 +8,7 @@ pipeline {
                git branch: 'main', url: 'https://github.com/Iman-khayat/WEB-DEVOPS.git'
             }
         }
-            stage("NPM Install") {
-            steps {
-                script {
-                    // this will  generate node_modules folder and map it 
-                    // back to this workspace.
-                    docker.image("node:18-alpine").inside {
-
-                        sh "npm install"
-                    }
-                }
-            }
-        }
+           
     
         stage('Excute') {
             steps {

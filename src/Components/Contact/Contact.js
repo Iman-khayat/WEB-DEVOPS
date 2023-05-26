@@ -23,14 +23,33 @@ function Contact() {
       element.current.classList.remove("affect");
     }
   };
-  const handleSubmit = async (e) => {
+const handleSubmit = async (e) => {
     e.preventDefault();
-    const el = { name, email, message };
-    console.log(el);
+
+    const payload = {
+        sender: email,
+        subject: name,
+        message: message
+    };
+
+    const response = await fetch('https://localhost:7077/about', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+    });
+
+    if (response.ok) {
+        console.log('Message sent successfully');
+    } else {
+        console.log('Failed to send message');
+    }
+
     setName("");
     setEmail("");
     setMessage("");
-  };
+};
   return (
     <Container>
       <div className="contact">
@@ -86,3 +105,4 @@ function Contact() {
   );
 }
 export default Contact;
+
